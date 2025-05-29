@@ -14,6 +14,13 @@
   --font-mono: var(--font-geist-mono);
 }
 
+/* Define dark mode variables when the html tag has the 'dark' class */
+html.dark {
+  --background: #0a0a0a;
+  --foreground: #ededed;
+}
+
+/* Optional: Keep system preference as a fallback */
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
