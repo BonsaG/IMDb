@@ -1,6 +1,5 @@
+import NavBar from "../components/Navbar";
 import Header from "../components/Header";
-// import About from "./about/Page";
-// import Navbar from "../components/Navbar";
 // import SearchBox from "../components/SearchBox";
 
 import "./globals.css";
@@ -30,7 +29,8 @@ export default function RootLayout({ children }) {
           {/* Header */}
           <Header />
 
-          {/* <about /> */}
+          {/* <Navbar /> */}
+          <NavBar />
 
           {/* SearchBox */}
 
