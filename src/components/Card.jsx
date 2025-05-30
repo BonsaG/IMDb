@@ -14,10 +14,10 @@ export default function Card({ result }) {
       <Link href={`/movie/${result.id}`}>
         {imagePath ? (
           <Image
-            src={`https://image.tmdb.org/t/p/w500/${imagePath}`}
+            src={`https://image.tmdb.org/t/p/w300/${imagePath}`} // or w500, w200, etc.
             alt={`${result.title || result.name} Poster`}
-            width={500}
-            height={300}
+            width={300} // or 500, 200, etc.
+            height={400} // adjust as needed for your design
             className="sm:rounded-t-lg group-hover:opacity-75 transition-opacity duration-300"
           />
         ) : (
